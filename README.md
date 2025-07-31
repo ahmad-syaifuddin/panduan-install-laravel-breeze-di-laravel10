@@ -280,14 +280,14 @@ Replace the content of `resources/css/app.css`:
 
         <!-- Email Address -->
         <div class="mb-4">
-            <x-input-label for="email" :value="__('Email')" />
+            <x-input-label for="email" class="dark:text-gray-400" :value="__('Email')" />
             <x-text-input id="email" class="form-input mt-1" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="form-error" />
         </div>
 
         <!-- Password -->
         <div class="mb-4">
-            <x-input-label for="password" :value="__('Password')" />
+            <x-input-label for="password" class="dark:text-gray-400" :value="__('Password')" />
             <x-text-input id="password" class="form-input mt-1" type="password" name="password" required autocomplete="current-password" />
             <x-input-error :messages="$errors->get('password')" class="form-error" />
         </div>
@@ -340,28 +340,28 @@ Replace the content of `resources/css/app.css`:
 
         <!-- Name -->
         <div class="mb-4">
-            <x-input-label for="name" :value="__('Name')" />
+            <x-input-label for="name" class="dark:text-gray-400" :value="__('Name')" />
             <x-text-input id="name" class="form-input mt-1" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             <x-input-error :messages="$errors->get('name')" class="form-error" />
         </div>
 
         <!-- Email Address -->
         <div class="mb-4">
-            <x-input-label for="email" :value="__('Email')" />
+            <x-input-label for="email" class="dark:text-gray-400" :value="__('Email')" />
             <x-text-input id="email" class="form-input mt-1" type="email" name="email" :value="old('email')" required autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="form-error" />
         </div>
 
         <!-- Password -->
         <div class="mb-4">
-            <x-input-label for="password" :value="__('Password')" />
+            <x-input-label for="password" class="dark:text-gray-400" :value="__('Password')" />
             <x-text-input id="password" class="form-input mt-1" type="password" name="password" required autocomplete="new-password" />
             <x-input-error :messages="$errors->get('password')" class="form-error" />
         </div>
 
         <!-- Confirm Password -->
         <div class="mb-6">
-            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+            <x-input-label for="password_confirmation" class="dark:text-gray-400" :value="__('Confirm Password')" />
             <x-text-input id="password_confirmation" class="form-input mt-1" type="password" name="password_confirmation" required autocomplete="new-password" />
             <x-input-error :messages="$errors->get('password_confirmation')" class="form-error" />
         </div>
